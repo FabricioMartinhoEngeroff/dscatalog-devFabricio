@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dvFabricio.dscatalog.entities.Category;
-import com.dvFabricio.dscatalog.services.CategoryService;
-
+import com.dvFabricio.dscatalog.services.CategoryService; 
 @RestController
 @RequestMapping(value = "/categories")
 public class CategoryResource {
